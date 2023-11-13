@@ -14,7 +14,7 @@ function showNotification() {
 
                     registration.showNotification("This is a test notification", {
                         body: "Test note",
-                        icon: "../images/MBC-logo/logo.png"
+                        // icon: "path"
                     });
 
                     registration.active.postMessage('send Notification');
